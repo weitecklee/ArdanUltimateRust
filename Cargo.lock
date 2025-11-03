@@ -7,8 +7,19 @@ name = "ArdanUltimateRust"
 version = "0.1.0"
 
 [[package]]
+name = "authentication"
+version = "0.1.0"
+
+[[package]]
 name = "hello_world"
 version = "0.1.0"
+
+[[package]]
+name = "login"
+version = "0.1.0"
+dependencies = [
+ "authentication",
+]
 
 [[package]]
 name = "variables"
