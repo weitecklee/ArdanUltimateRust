@@ -1,0 +1,17 @@
+{
+  "dude": {
+    "username": "dude",
+    "password": "E7CF3EF4F17C3999A94F2C6F612E8A888E5B1026878E4E19398B23BD38EC221A",
+    "role": "User"
+  },
+  "admin": {
+    "username": "admin",
+    "password": "5E884898DA28047151D0E56F8DC6292773603D0D6AABBDD62A11EF721D1542D8",
+    "role": "Admin"
+  },
+  "boss": {
+    "username": "boss",
+    "password": "5E884898DA28047151D0E56F8DC6292773603D0D6AABBDD62A11EF721D1542D8",
+    "role": "Admin"
+  }
+}

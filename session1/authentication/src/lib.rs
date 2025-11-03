@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 use std::{collections::HashMap, path::Path};
 
-fn hash_password(password: &str) -> String {
+pub fn hash_password(password: &str) -> String {
     use sha2::Digest;
     let mut hasher = sha2::Sha256::new();
     hasher.update(password);
@@ -69,7 +69,13 @@ fn get_default_users() -> HashMap<String, User> {
     users
 }
 
-fn get_users() -> HashMap<String, User> {
+pub fn save_users(users: HashMap<String, User>) {
+    let users_path = Path::new("users.json");
+    let users_json = serde_json::to_string(&users).unwrap();
+    std::fs::write(users_path, users_json).unwrap();
+}
+
+pub fn get_users() -> HashMap<String, User> {
     let users_path = Path::new("users.json");
     if users_path.exists() {
         // Load the file!
