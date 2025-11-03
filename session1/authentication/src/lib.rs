@@ -1,6 +1,13 @@
 use serde::{Deserialize, Serialize};
 use std::{collections::HashMap, path::Path};
 
+fn hash_password(password: &str) -> String {
+    use sha2::Digest;
+    let mut hasher = sha2::Sha256::new();
+    hasher.update(password);
+    format!("{:X}", hasher.finalize())
+}
+
 pub fn greet_user(name: &str) -> String {
     format!("Hello {name}")
 }
@@ -36,7 +43,7 @@ impl User {
     pub fn new(username: &str, password: &str, role: LoginRole) -> User {
         User {
             username: username.to_lowercase(),
-            password: password.to_string(),
+            password: hash_password(password),
             role,
         }
     }
@@ -88,6 +95,7 @@ fn get_users() -> HashMap<String, User> {
 
 pub fn login(username: &str, password: &str) -> Option<LoginAction> {
     let username = username.to_lowercase();
+    let password = hash_password(password);
     let users = get_users();
 
     if let Some(user) = users.get(&username) {
