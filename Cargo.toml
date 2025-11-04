@@ -12,6 +12,8 @@ members = [
   "session1/login",
   "session1/login_manager",
   "session1/variables",
+  "session2/channels1",
+  "session2/channels2",
   "session2/dashing",
   "session2/deadlocks",
   "session2/divide_work",
