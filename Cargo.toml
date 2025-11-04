@@ -15,6 +15,8 @@ members = [
   "session2/divide_work",
   "session2/footgun",
   "session2/hello",
+  "session2/mutexes",
+  "session2/rwlocks",
   "session2/scoped_threads",
   "session2/thread_builder",
 ]
