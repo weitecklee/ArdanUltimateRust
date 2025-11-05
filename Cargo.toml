@@ -22,6 +22,8 @@ members = [
   "session2/hello",
   "session2/mutexes",
   "session2/parking",
+  "session2/rayon_iters",
+  "session2/rayon_scopes",
   "session2/rwlocks",
   "session2/scoped_threads",
   "session2/thread_builder",
