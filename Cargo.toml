@@ -30,4 +30,5 @@ members = [
   "session2/tprio",
   "session2/workers",
   "session2/workers2",
+  "session3/hello_async",
 ]
