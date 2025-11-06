@@ -34,6 +34,7 @@ members = [
   "session3/blocking",
   "session3/broadcast",
   "session3/channels",
+  "session3/db",
   "session3/errors",
   "session3/errors_async",
   "session3/fileio",
