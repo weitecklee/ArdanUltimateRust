@@ -40,6 +40,8 @@ members = [
   "session3/hello_async",
   "session3/hello_tokio",
   "session3/restclient",
+  "session3/select_channels",
+  "session3/select_timeout",
   "session3/tcpserver",
   "session3/tokio_testing",
 ]
