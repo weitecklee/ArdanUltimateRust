@@ -30,6 +30,7 @@ members = [
   "session2/tprio",
   "session2/workers",
   "session2/workers2",
+  "session3/async_mutex",
   "session3/blocking",
   "session3/broadcast",
   "session3/channels",
