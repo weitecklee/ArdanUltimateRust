@@ -36,5 +36,7 @@ members = [
   "session3/fileio",
   "session3/hello_async",
   "session3/hello_tokio",
+  "session3/restclient",
+  "session3/tcpserver",
   "session3/tokio_testing",
 ]
