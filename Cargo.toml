@@ -45,6 +45,7 @@ members = [
   "session3/select_channels",
   "session3/select_timeout",
   "session3/tcpserver",
+  "session3/thumbnail_server",
   "session3/tokio_console",
   "session3/tokio_testing",
   "session3/tokio_tracing",
