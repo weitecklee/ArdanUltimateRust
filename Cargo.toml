@@ -56,7 +56,9 @@ members = [
   "session4/internal_arc_mutex",
   "session4/lifetimes",
   "session4/memory",
+  "session4/operator_overload",
   "session4/refcell",
   "session4/refcount",
   "session4/smart_ptr",
+  "session4/traits",
 ]
