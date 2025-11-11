@@ -168,6 +168,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1505bd5d3d116872e7271a6d4e16d81d0c8570876c8de68093a09ac269d8aac0"
 
 [[package]]
+name = "atomicrefcount"
+version = "0.1.0"
+
+[[package]]
 name = "authentication"
 version = "0.1.0"
 dependencies = [
@@ -826,6 +830,10 @@ dependencies = [
  "smallvec",
  "zune-inflate",
 ]
+
+[[package]]
+name = "external_arc_mutex"
+version = "0.1.0"
 
 [[package]]
 name = "fastrand"
@@ -1519,6 +1527,10 @@ dependencies = [
  "equivalent",
  "hashbrown 0.16.0",
 ]
+
+[[package]]
+name = "internal_arc_mutex"
+version = "0.1.0"
 
 [[package]]
 name = "interpolate_name"
@@ -2394,6 +2406,14 @@ checksum = "ed2bf2547551a7053d6fdfafda3f938979645c44812fbfcda098faae3f1a362d"
 dependencies = [
  "bitflags",
 ]
+
+[[package]]
+name = "refcell"
+version = "0.1.0"
+
+[[package]]
+name = "refcount"
+version = "0.1.0"
 
 [[package]]
 name = "regex-automata"

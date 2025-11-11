@@ -50,7 +50,11 @@ members = [
   "session3/tokio_testing",
   "session3/tokio_tracing",
   "session3/web_service",
+  "session4/atomicrefcount",
   "session4/dropping",
-  "session4/memory",
+  "session4/external_arc_mutex",
+  "session4/internal_arc_mutex",
+  "session4/memory", "session4/refcell",
+  "session4/refcount",
   "session4/smart_ptr",
 ]
