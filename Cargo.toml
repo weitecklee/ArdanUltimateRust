@@ -53,6 +53,8 @@ members = [
   "session4/atomicrefcount",
   "session4/dropping",
   "session4/external_arc_mutex",
+  "session4/generics",
+  "session4/hashmap_bucket",
   "session4/internal_arc_mutex",
   "session4/lifetimes",
   "session4/memory",
@@ -60,5 +62,6 @@ members = [
   "session4/refcell",
   "session4/refcount",
   "session4/smart_ptr",
+  "session4/trait_generic",
   "session4/traits",
 ]
