@@ -50,4 +50,5 @@ members = [
   "session3/tokio_testing",
   "session3/tokio_tracing",
   "session3/web_service",
+  "session4/memory",
 ]
