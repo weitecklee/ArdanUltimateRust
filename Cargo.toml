@@ -51,6 +51,8 @@ members = [
   "session3/tokio_tracing",
   "session3/web_service",
   "session4/atomicrefcount",
+  "session4/bytes",
+  "session4/bytes2",
   "session4/dropping",
   "session4/external_arc_mutex",
   "session4/generics",
