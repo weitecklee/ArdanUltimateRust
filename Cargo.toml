@@ -56,6 +56,7 @@ members = [
   "session4/generics",
   "session4/hashmap_bucket",
   "session4/internal_arc_mutex",
+  "session4/iterator_generator",
   "session4/lifetimes",
   "session4/memory",
   "session4/operator_overload",
