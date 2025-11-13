@@ -4,6 +4,7 @@ use tokio::net::TcpListener;
 
 mod api;
 mod collector;
+mod web;
 
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
@@ -18,6 +19,8 @@ async fn main() -> anyhow::Result<()> {
 
     // Start the web server
     let app = Router::new()
+        .route("/", get(web::index))
+        .route("/collector.html", get(web::collector))
         .route("/api/all", get(api::show_all))
         .route("/api/collectors", get(api::show_collectors))
         .route("/api/collector/{uuid}", get(api::collector_data))
