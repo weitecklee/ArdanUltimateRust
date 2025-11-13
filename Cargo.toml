@@ -72,5 +72,6 @@ members = [
   "session4/trait_generic",
   "session4/traits",
   "session5/collector",
+  "session5/server",
   "session5/shared_data",
 ]
