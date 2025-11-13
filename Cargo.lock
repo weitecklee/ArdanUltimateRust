@@ -2972,8 +2972,14 @@ name = "server"
 version = "0.1.0"
 dependencies = [
  "anyhow",
+ "axum",
+ "dotenv",
+ "futures",
+ "serde",
  "shared_data",
+ "sqlx",
  "tokio",
+ "uuid",
 ]
 
 [[package]]
